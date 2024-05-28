@@ -68,6 +68,13 @@ fun main() {
     //problema 5
     print("ingrese un numero entre el 1 y el 99:")
     val num: Int = readln().toInt()
+    if (num < 1){
+        println("Numero no valido")
+    }
+    if (num > 99){
+        println("Numero no valido")
+    }
+
 
     if(num >= 10){
         println("Su numero tiene dos digitos")
