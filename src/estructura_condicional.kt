@@ -65,6 +65,8 @@ fun main() {
     }
      */
 
+
+    /*
     //problema 5
     print("ingrese un numero entre el 1 y el 99:")
     val num: Int = readln().toInt()
@@ -82,4 +84,8 @@ fun main() {
 }else{
         println("Su numero solo tiene un digito")
     }
+     */
+
+
+    
 }
