@@ -20,19 +20,15 @@ fun main(){
     }
 print(resultado)
  */
+
     print("ingrese un numero del 1 al 99:")
     val num = readln().toInt()
-    val cant = if (num >= 10) {
-        2
-    }else{
+    val cant = if (num >= 10 )
+    2
+    else
         1
-         print("el numero que ingreso tiene $")
+
+         print("el numero que ingreso tiene $cant digito/s")
     }
 
 
-
-
-
-
-
-}
