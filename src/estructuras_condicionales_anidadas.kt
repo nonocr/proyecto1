@@ -35,62 +35,40 @@ fun main() {
      */
 
 
-    /*
-    print("ingrese el primer numero:")
-    val num1: Int = readln().toInt()
-    print("ingrese el segundo numero:")
-    val num2: Int = readln().toInt()
-    print("ingrese el tercer numero:")
-    val num3: Int = readln().toInt()
 
-    if (num1 > num2 and num3)
-        println(num1)
-    else
-        if (num2 > num1 and num3)
-            println(num2)
+        print("ingrese el primer numero:")
+        val num1: Int = readln().toInt()
+        print("ingrese el segundo numero:")
+        val num2: Int = readln().toInt()
+        print("ingrese el tercer numero:")
+        val num3: Int = readln().toInt()
+
+        if (num1 > num2)
+            println(num1)
         else
-            println(num3)
-    */
+            if (num2 > num3)
+               println(num2)
+           else
+                println(num3)
 
 
+
+
+
+/*
     print("ingrese un numero entre el 1 y el 999:")
     val num: Int = readln().toInt()
-    if (num <= 9)
-        println("su numero tiene 1 digito")
+    if (num > 999)
+        println("numero no valido")
     else
-        if (num >= 10)
-            println("su numero tiene 2 digitos")
-        else
-            if (num > 99)
-            println("su numero tiene 3 digitos")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        if (num > 99)
+        println("su numero tiene 3 digitos")
+    else
+        if (num > 9)
+        println("su numero tiene 2 digitos")
+    else
+        println("Su numero tiene 1 digito")
+ */
 
 
     /*
@@ -113,11 +91,6 @@ fun main() {
         if (porcentaje < 50)
         println("fuera de nivel")
 */
-
-
-
-
-
 
 
 }
