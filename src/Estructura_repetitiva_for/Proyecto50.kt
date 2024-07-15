@@ -16,3 +16,5 @@ fun main() {
             println("Cantidad de multiplos del 3: $mult3")
             println("Cantidad de multiplos del 5: $mult5")
             println("Cantidad de multiplos del 9: $mult9") }
+        }
+}
