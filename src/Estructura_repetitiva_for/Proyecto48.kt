@@ -1,14 +1,22 @@
-package Estructura_repetitiva_for
+package Estructura_Repetitiva_for
 
-fun main() {
+fun main(){
+/*
+Desarrollar un programa que permita la carga de 10 valores por teclado y nos
+muestre posteriormente la suma de los valores ingresados y su promedio. Este
+problema ya lo desarrollamos empleando el while, lo resolveremos empleando la
+estructura repetitiva for.
+ */
+
     var suma = 0
-
-    for (index in 1..10){
-        println("Ingrese el valor $index: ")
+    for(i in 1..10) {
+        print("Ingrese un valor:")
         val valor = readln().toInt()
         suma += valor
     }
     println("La suma de los valores ingresados es $suma")
     val promedio = suma / 10
     println("Su promedio es $promedio")
+
+
 }

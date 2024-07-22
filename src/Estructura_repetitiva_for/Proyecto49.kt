@@ -1,19 +1,22 @@
-package Estructura_repetitiva_for
+package Estructura_Repetitiva_for
 
 fun main() {
-    var apro = 0
-    var repro = 0
+/*
+Escribir un programa que lea 10 notas de alumnos y nos informe cuántos tienen
+notas mayores o iguales a 7 y cuántos menores.
+ */
 
-    for (index in 1..10) {
-        println("Ingrese nota $index: ")
+    var aprobados = 0
+    var reprobados = 0
+    for(i in 1..10) {
+        print("Ingrese nota:")
         val nota = readln().toInt()
-        if (nota >= 7) {
-            apro++
-        } else {
-            repro++
-        }
+        if (nota >= 7)
+            aprobados++
+        else
+            reprobados++
     }
-    println("Cantidad de alumnos con notas mayores o "+
-    "iguales a 7: $apro")
-    println("Cantidad de alumnos con notas menores a 7: $apro")
+    println("Cantidad de alumnos con notas mayores o iguales a 7:++$aprobados")
+    println("Cantidad de alumnos con notas menores a 7:$reprobados")
+
 }

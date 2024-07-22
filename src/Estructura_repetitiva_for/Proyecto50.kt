@@ -1,20 +1,23 @@
-package Estructura_repetitiva_for
+package Estructura_Repetitiva_for
 
 fun main() {
+
+/*Desarrollar un programa que cuente cuantos múltiplos de 3, 5 y 9 hay en el rango de
+1 a 10000 (No se deben cargar valores por teclado)
+*/
     var mult3 = 0
     var mult5 = 0
     var mult9 = 0
-
-    for (index in 1..10000)
-        if (index % 3 == 0) {
+    for (i in 1..10000) {
+        if (i % 3 == 0)
             mult3++
-        if (index % 5 == 0) {
+        if (i % 5 == 0)
             mult5++
-        if (index % 9 == 0) {
-            mult9
-            }
-            println("Cantidad de multiplos del 3: $mult3")
-            println("Cantidad de multiplos del 5: $mult5")
-            println("Cantidad de multiplos del 9: $mult9") }
-        }
+        if (i % 9 == 0)
+            mult9++
+    }
+    println("Cantidad de múltiplos de 3: $mult3")
+    println("Cantidad de múltiplos de 5: $mult5")
+    println("Cantidad de múltiplos de 9: $mult9")
+
 }
