@@ -1,9 +1,5 @@
 package Funciones_Parametros
-/*
-En la función main solicitar que se ingrese una clave dos veces por teclado.
-Desarrollar una función que reciba dos String como parametros y muestre un
-mensaje si las dos claves ingresadas son iguales o distintas.
-*/
+
 fun clave(clave1: String, clave2: String){
     when{
         clave1 == clave2 -> println("Las claves son iguales")

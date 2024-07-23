@@ -1,9 +1,5 @@
 package Funciones_Parametros
-/*
-Confeccionar una función que reciba tres enteros y los muestre ordenados de
-menor a mayor. En la función main solicitar la carga de 3 enteros por teclado y
-proceder a llamar a la primer función definida
- */
+
 
 fun menormayor(num1: Int, num2: Int, num3: Int) {
     when {

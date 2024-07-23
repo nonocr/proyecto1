@@ -1,8 +1,5 @@
 package Funciones_Parametros
-/*
-Confeccionar una función que reciba tres enteros y nos muestre el mayor de ellos. La
-carga de los valores hacerlo por teclado en la función main.
- */
+
 
 fun mostrarMayor(v1: Int, v2: Int, v3: Int) {
     print("Mayor:")
