@@ -20,7 +20,7 @@ class Operaciones {
         println("La resta de $valor1 y $valor2 es $resta")
     }
 }
-fun main(parametro: Array<String>) {
+fun main() {
     val operaciones1 = Operaciones()
     operaciones1.cargar()
     }
